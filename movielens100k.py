@@ -80,4 +80,4 @@ if __name__ == '__main__':
     df = df.merge(item_infos, how='left', on='item')
     df = df.merge(user_infos, how='left', on='user')
 
-    df.to_csv('ml_100k.csv.zip', sep='\t', index=False)
+    df.to_csv('ml_100k.csv', sep='\t', index=False)
