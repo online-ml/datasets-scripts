@@ -61,7 +61,7 @@ if __name__ == '__main__':
 
     genres = item_infos.drop(columns=['item', 'title', 'release_date'])
 
-    item_infos['genre'] = genres.apply(
+    item_infos['genres'] = genres.apply(
         lambda row: ', '.join([genre for genre, occurs in zip(genres.columns, row) if occurs]),
         axis=1
     )
