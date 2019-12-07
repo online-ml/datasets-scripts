@@ -66,7 +66,7 @@ if __name__ == '__main__':
         axis=1
     )
 
-    item_infos = item_infos[['item', 'title', 'release_date', 'genre']]
+    item_infos = item_infos[['item', 'title', 'release_date', 'genres']]
 
     # Load and process user infos
     names = ['user', 'age', 'gender', 'occupation', 'zip_code']
