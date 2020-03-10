@@ -14,3 +14,6 @@ wget https://projects.fivethirtyeight.com/trump-approval-data/approval_topline.c
 
 # Phishing
 wget http://archive.ics.uci.edu/ml/machine-learning-databases/00379/PhishingData.arff
+
+# Segment
+wget https://archive.ics.uci.edu/ml/machine-learning-databases/statlog/segment/segment.dat
